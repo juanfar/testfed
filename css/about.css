@@ -1,0 +1,36 @@
+@import './general.css';
+#about {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+.about-title {
+  text-align: center;
+}
+.about-title h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.about-text, .about-img {
+  margin-top: 20px;
+}
+.about-subtitle {
+  font-size: 18px;
+  line-height: normal;
+}
+@media screen and (min-width: 576px) {
+  #about {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .about-content {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .about-img {
+    padding: 20px;
+  }
+  .about-text {
+    padding: 20px;
+    align-self: center;
+  }
+}

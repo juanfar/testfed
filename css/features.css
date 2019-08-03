@@ -1,0 +1,40 @@
+@import './general.css';
+#features {
+  padding: 20px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.features-title h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.features-grid .features-cards {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.features-grid .features-cards .card {
+  border: none;
+  margin: 10px;
+}
+.features-grid .features-cards .card .card-body {
+  padding: 10px;
+}
+.features-grid .cards .card .card-body a {
+  color: #00d2b5;
+}
+.features-grid .features-cards .card-icon {
+  margin: 20px 0;
+}
+.features-grid .features-cards .card i {
+  color: #fff;
+}
+@media screen and (min-width: 576px) {
+  .features-grid .features-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,49 @@
+@import './general.css';
+#banner {
+  padding: 20px;
+  background-color: #fff;
+}
+.banner-brand {
+  display: none;
+}
+.banner-brand a {
+  color: #000;
+  font-size: 36px;
+  text-decoration: none;
+}
+.banner-text {
+  margin-top: 30px;
+}
+.banner-text p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+.banner-title {
+  font-size: 32px;
+  font-weight: 900;
+}
+.banner-parraf {
+  margin-top: 10px !important;
+}
+.banner-button {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  #banner {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .banner-content {
+    padding: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+  } 
+  .banner-brand {
+    display: flex;
+    margin: 0 auto;
+  }
+}

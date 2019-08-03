@@ -1,0 +1,55 @@
+@import './general.css';
+
+#broadcast {
+  background-color: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.broad-text {
+  padding: 20px;
+}
+.broad-title {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: normal;
+}
+.broad-list li {
+  text-decoration: none;
+  list-style: none;
+}
+.broad-list li::before {
+  content: "\f00c";
+  font-family: "icomoon";
+  font-size: 10px;
+  color: #00d2b5;
+  margin-right: 10px;
+}
+.broad-card .card-body {
+  padding: 10px 10px 10px 10px;
+}
+.broad-card .card-body img {
+  width: 100px;
+}
+.broad-card .card-body h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.broad-card .tst {
+  padding: 0 20px 0 20px;
+}
+@media screen and (min-width: 576px) {
+  #broadcast {
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .broad-text {
+    padding: 50px;
+  }
+
+  .broad-img {
+    padding: 20px;
+    flex: 1 1.4 auto;
+  }
+}

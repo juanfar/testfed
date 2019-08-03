@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+.italic {
+  font-style: italic;
+}
+.circle-icon {
+  background: #00d2b5;
+  padding: 7px;
+  border-radius: 50%;
+}
+.green {
+  color: #00d2b5;
+}
+.button {
+  background-color: #00d2b5;
+  border: none;
+  color: white;
+  padding: 6px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border-radius: 18px;
+}

@@ -1,0 +1,44 @@
+@import './general.css';
+@import './carrousel.css';
+#testimonials {
+  background-color: #fff;
+  padding: 20px;
+}
+.test-title {
+  text-align: center;
+}
+.test-title h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.slideshow-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.mySlides {
+  text-align: center;
+}
+.mySlides img {
+  width: 30%;
+  border-radius: 50%;
+}
+.slideshow-container{
+  margin-top: 20px;
+}
+@media screen and (min-width: 576px) {
+  #testimonials {
+    margin-top: 20px;
+  }
+  .mySlides img {
+    margin-top: 20px;
+    width: 10%;
+  }
+  .mySlides .text {
+    margin-top: 10px;
+    padding: 0 150px;
+  }
+  #testimonials .dots {
+    margin-top: 30px;
+  }
+}

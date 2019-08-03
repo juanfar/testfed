@@ -1,0 +1,34 @@
+@import './general.css';
+#contact {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+.contact-title {
+  text-align: center;
+}
+.contact-title h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.contact-form .card {
+  padding: 20px;
+}
+.contact-form h4 {
+  padding: 20px 0;
+  font-size: 18px;
+}
+@media screen and (min-width: 576px) {
+  .contact-title {
+    margin-top: 20px;
+  }
+  .contact-form {
+    padding: 10px 25px 10px 25px;
+    margin: 0 auto;
+  }
+  .contact-card .card {
+    padding-top: 20px;
+  }
+  .contact-card {
+    padding: 10px 80px;
+  }
+}
